@@ -1,0 +1,54 @@
+
+# Created by https://www.gitignore.io/api/nodejs,yeoman,macos,vim
+
+### macOS ###
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+#!! ERROR: nodejs is undefined. Use list command to see defined gitignore types !!#
+
+### Vim ###
+# swap
+.sw[a-p]
+.*.sw[a-p]
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
+# auto-generated tag files
+tags
+
+### Yeoman ###
+node_modules/
+bower_components/
+*.log
+
+build/
+dist/
+
+
+# End of https://www.gitignore.io/api/nodejs,yeoman,macos,vim
